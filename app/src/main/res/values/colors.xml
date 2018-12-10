@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fondo">#c7eafe</color>
+    <color name="letras">#FFFFFF</color>
+    <color name="cuadros_de_texto">#ffffff</color>
+    <color name="fondo_de_boton">#1d6aa9</color>
+    <color name="letras_principales">#1d6aa9</color>
+    <color name="transparente">#607D8B</color>
+
+
+
+
+
+
+</resources>
