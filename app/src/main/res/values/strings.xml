@@ -36,6 +36,21 @@
     <string name="link_para_recuperar_password">Recuperar Contraseña</string>
     <string name="terminos_y_condiciones">Acepto los Términos y Condiciones</string>
 
+    //Nombre de las categorias
+    <string name="aceras_y_calzadas">Aceras y calzadas</string>
+    <string name="jardines_y_areas_caninas">Jardines y áreas caninas</string>
+    <string name="bancos">Bancos</string>
+    <string name="barandillas">Barandillas</string>
+    <string name="farolas_e_iluminacion">Farolas e iluminación</string>
+    <string name="papeleras_y_contenedores">Papeleras y contenedores</string>
+    <string name="pivotes_y_bolardos">Pivotes y bolardos</string>
+    <string name="playas">Playas</string>
+    <string name="semaforos_y_senales">Semáforos y señales</string>
+    <string name="parques">Parques</string>
+    <string name="saneamiento_y_abastecimiento">Saneamiento y abastecimiento</string>
+
+
+
 
 
 </resources>
