@@ -33,6 +33,10 @@
     <string name="repetirpassword">Repetir Contraseña</string>
     <string name="link_para_recuperar_password">Recuperar Contraseña</string>
     <string name="terminos_y_condiciones">Acepto los Términos y Condiciones</string>
+    <string name="direccion">Dirección</string>
+    <string name="descripcion">Descripción</string>
+
+
 
     //Nombre de las categorias
     <string name="aceras_y_calzadas">Aceras y calzadas</string>
@@ -48,6 +52,11 @@
     <string name="saneamiento_y_abastecimiento">Saneamiento y abastecimiento</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    //API key google Maps
+    <string name="google_maps_key">AIzaSyA_wynNtO5-8h-9fVCmrwV0C8tfj5mMqnk</string>
+
 
 
 
