@@ -27,6 +27,7 @@
 
         <!-- Column 1 -->
             <android.support.v7.widget.CardView
+                android:id="@+id/cardAceras"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -35,8 +36,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -46,6 +47,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoAceras"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -55,6 +57,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenAceras"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -65,6 +68,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/cardJardines"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -73,8 +77,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -84,6 +88,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoJardines"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -93,6 +98,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenJardines"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -103,6 +109,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/cardBancos"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -111,8 +118,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -122,6 +129,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoBancos"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -131,6 +139,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenBancos"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -141,6 +150,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/cardBarandillas"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -149,8 +159,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -160,6 +170,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoBarandillas"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -169,6 +180,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenBarandillas"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -179,6 +191,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/cardFarolas"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -187,8 +200,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -198,6 +211,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoFarolas"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -207,6 +221,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenFarolas"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -215,7 +230,9 @@
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
             <android.support.v7.widget.CardView
+                android:id="@+id/cardPapeleras"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -224,8 +241,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -235,6 +252,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoPapeleras"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -244,6 +262,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenPapeleras"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -252,7 +271,9 @@
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
             <android.support.v7.widget.CardView
+                android:id="@+id/cardPivotes"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -261,8 +282,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -272,6 +293,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoPivotes"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -281,6 +303,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenPivotes"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -289,7 +312,9 @@
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
             <android.support.v7.widget.CardView
+                android:id="@+id/cardPlayas"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -298,8 +323,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -309,6 +334,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoPlayas"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -318,6 +344,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenPlayas"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -326,7 +353,9 @@
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
             <android.support.v7.widget.CardView
+                android:id="@+id/cardSemaforos"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -335,8 +364,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -346,6 +375,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoSemaforos"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -355,6 +385,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenSemaforos"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -363,7 +394,9 @@
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
             <android.support.v7.widget.CardView
+                android:id="@+id/cardParques"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -372,8 +405,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -383,6 +416,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoParques"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -392,6 +426,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenParques"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
@@ -400,7 +435,9 @@
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
             <android.support.v7.widget.CardView
+                android:id="@+id/cardSaneamiento"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginLeft="16dp"
@@ -409,8 +446,8 @@
                 app:cardBackgroundColor="@color/fondo"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp"
-                app:layout_rowWeight="1"
-                app:layout_columnWeight="1">
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
 
                 <LinearLayout
                     android:layout_width="123dp"
@@ -420,6 +457,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/textoSaneamiento"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:gravity="top"
@@ -429,6 +467,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/imagenSaneamiento"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="bottom|left"
