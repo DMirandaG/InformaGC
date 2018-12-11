@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_perfil"
+                    android:title="Perfil" />
+                <item
+                    android:id="@+id/nav_mis_informes"
+                    android:title="Mis Informes" />
+                <item
+                    android:id="@+id/nav_como_funciona"
+                    android:title="Cómo funciona" />
+                <item
+                    android:id="@+id/nav_enviar_sugerencias"
+                    android:title="Enviar Sugerencias" />
+                <item
+                    android:id="@+id/nav_terminos"
+                    android:title="Términos y Condiciones" />
+                <item
+                    android:id="@+id/nav_cerrar_sesion"
+                    android:title="Cerrar Sesión" />
+    </group>
+</menu>
