@@ -40,7 +40,6 @@ public class VistaLogin extends AppCompatActivity implements IVistaLogin {
         });
 
         botonLogin = (Button) findViewById(R.id.botonLogin);
-        botonLogin.getBackground().setAlpha(100);
         botonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
