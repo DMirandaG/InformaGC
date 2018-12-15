@@ -166,8 +166,8 @@ public class VistaPasoUno extends AppCompatActivity implements NavigationView.On
 
         if (id == R.id.nav_perfil) {
             Toast.makeText(this,"Perfil",Toast.LENGTH_SHORT).show();
-            /*Intent intent = new Intent(this, VistaPasoDos.class);
-            startActivity(intent);*/
+            Intent intent = new Intent(this, VistaPerfil.class);
+            startActivity(intent);
         }else if (id == R.id.nav_mis_informes) {
             Toast.makeText(this,"Mis Informes",Toast.LENGTH_SHORT).show();
         }else if (id == R.id.nav_como_funciona) {

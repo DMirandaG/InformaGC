@@ -37,7 +37,6 @@
     <string name="descripcion">Descripción</string>
 
 
-
     //Nombre de las categorias
     <string name="aceras_y_calzadas">Aceras y calzadas</string>
     <string name="jardines_y_areas_caninas">Jardines y áreas caninas</string>
@@ -56,8 +55,6 @@
 
     //API key google Maps
     <string name="google_maps_key">AIzaSyA_wynNtO5-8h-9fVCmrwV0C8tfj5mMqnk</string>
-
-
 
 
 </resources>
