@@ -1,5 +1,7 @@
 package pem.informagc.vista;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -142,6 +144,12 @@ public class VistaPasoUno extends AppCompatActivity implements NavigationView.On
     }
 
     @Override
+    public void irALogin() {
+        Intent intent = new Intent(this, VistaLogin.class);
+        startActivity(intent);
+    }
+
+    @Override
     public void onBackPressed(){
         if(drawer.isDrawerOpen(GravityCompat.START)){
             drawer.closeDrawer(GravityCompat.START);
@@ -158,6 +166,8 @@ public class VistaPasoUno extends AppCompatActivity implements NavigationView.On
 
         if (id == R.id.nav_perfil) {
             Toast.makeText(this,"Perfil",Toast.LENGTH_SHORT).show();
+            /*Intent intent = new Intent(this, VistaPasoDos.class);
+            startActivity(intent);*/
         }else if (id == R.id.nav_mis_informes) {
             Toast.makeText(this,"Mis Informes",Toast.LENGTH_SHORT).show();
         }else if (id == R.id.nav_como_funciona) {
@@ -167,7 +177,18 @@ public class VistaPasoUno extends AppCompatActivity implements NavigationView.On
         }else if (id == R.id.nav_terminos) {
             Toast.makeText(this,"Terminos y Condiciones",Toast.LENGTH_SHORT).show();
         }else if (id == R.id.nav_cerrar_sesion) {
-            Toast.makeText(this,"Cerrar Sesion",Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this,"Cerrar Sesion",Toast.LENGTH_SHORT).show();
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setMessage("¿Está seguro que desea Cerrar Sesión?")
+                        .setPositiveButton("Si", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                irALogin();
+                            }
+                        }).setNegativeButton("No",null);
+                AlertDialog alert = builder.create();
+                alert.show();
+
         }
         drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
