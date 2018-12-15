@@ -16,20 +16,11 @@ public class AppMediador extends Application {
     }
 
 
-    // TODO: 08/12/2018 revisar, no dejar así, solo de ejemplo
     // constantes de comunicación, almacenamiento y petición
     public static final int ESTADO_INICIAL = 0;
-    public static final int ESTADO_AGREGAR_MARCA = 1;
-    public static final int ESTADO_BORRAR_MARCA = 2;
-    public static final String CLAVE_LATITUD = "latitud";
-    public static final String CLAVE_LONGITUD = "longitud";
-    public static final String CLAVE_TITULO = "titulo";
-    public static final String CLAVE_MARCAS = "marcas";
+    public static final String CLAVE_INFORME_LISTO = "informe";
 
-    public static final String AVISO_ESTADO_INICIAL = "pem.tema4.AVISO_ESTADO_INICIAL";
-    public static final String AVISO_LOCALIZACION_GPS = "pem.tema4.AVISO_LOCALIZACION_GPS";
-    public static final String AVISO_AGREGAR_MARCA = "pem.tema4.AVISO_AGREGAR_MARCA";
-    public static final String AVISO_BORRAR_MARCA = "pem.tema4.AVISO_BORRAR_MARCA";
+    public static final String AVISO_INFORME_LISTO = "pem.informagc.AVISO_INFORME_LISTO";
 
     // Métodos de manejo de los componentes de Android
     public void launchActivity(Class actividadInvocada, Object invocador, Bundle extras) {
