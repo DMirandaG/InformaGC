@@ -43,6 +43,8 @@
         <activity android:name=".vista.VistaPasoDos"
             android:label="Paso 2 de 2"
             android:parentActivityName=".vista.VistaPasoUno"
+            android:theme="@style/AppTheme.Transparent2"
+
             >
 
         </activity>
