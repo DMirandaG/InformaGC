@@ -48,6 +48,7 @@ public class VistaPasoDos extends AppCompatActivity implements IVistaPasoDos, On
                 .setPositiveButton("Si", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
+                        VistaPasoUno.pasoUno.finish();
                         irAPasoUno();
                     }
                 }).setNegativeButton("No",null);
@@ -55,11 +56,11 @@ public class VistaPasoDos extends AppCompatActivity implements IVistaPasoDos, On
         alert.show();
     }
 
-
     @Override
     public void irAPasoUno() {
         Intent intent = new Intent(this, VistaPasoUno.class);
         startActivity(intent);
+        finish();
     }
 
     @Override

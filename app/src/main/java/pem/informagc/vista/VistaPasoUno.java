@@ -1,5 +1,6 @@
 package pem.informagc.vista;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -34,6 +35,7 @@ public class VistaPasoUno extends AppCompatActivity implements NavigationView.On
     private CardView cardSaneamiento;
     private AppMediador appMediador;
     private DrawerLayout drawer;
+    public static Activity pasoUno;
 
 
 
@@ -41,6 +43,8 @@ public class VistaPasoUno extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vista_paso_uno);
+
+        pasoUno = this;
 
         cardAceras = (CardView) findViewById(R.id.cardAceras);
         cardAceras.setOnClickListener(new View.OnClickListener() {
@@ -147,6 +151,7 @@ public class VistaPasoUno extends AppCompatActivity implements NavigationView.On
     public void irALogin() {
         Intent intent = new Intent(this, VistaLogin.class);
         startActivity(intent);
+        finish();
     }
 
     @Override
@@ -165,7 +170,6 @@ public class VistaPasoUno extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if (id == R.id.nav_perfil) {
-            Toast.makeText(this,"Perfil",Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, VistaPerfil.class);
             startActivity(intent);
         }else if (id == R.id.nav_mis_informes) {
@@ -177,7 +181,6 @@ public class VistaPasoUno extends AppCompatActivity implements NavigationView.On
         }else if (id == R.id.nav_terminos) {
             Toast.makeText(this,"Terminos y Condiciones",Toast.LENGTH_SHORT).show();
         }else if (id == R.id.nav_cerrar_sesion) {
-//            Toast.makeText(this,"Cerrar Sesion",Toast.LENGTH_SHORT).show();
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setMessage("¿Está seguro que desea Cerrar Sesión?")
                         .setPositiveButton("Si", new DialogInterface.OnClickListener() {

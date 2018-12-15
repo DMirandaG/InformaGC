@@ -64,6 +64,7 @@ public class VistaLogin extends AppCompatActivity implements IVistaLogin {
     public void iniciarSesion() {
         Intent intent = new Intent(this, VistaPasoUno.class);
         startActivity(intent);
+        finish();
     }
 
 

@@ -40,7 +40,8 @@
         <activity
             android:name=".vista.VistaPasoUno"
             android:label="Paso 1 de 2"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar2"
+            android:launchMode="singleInstance"/>
         <activity
             android:name=".vista.VistaPasoDos"
             android:label="Paso 2 de 2"

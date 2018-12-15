@@ -19,6 +19,15 @@
 
     </style>
 
+    <style name="AppTheme.NoActionBar2">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/letras</item>
+        <item name="colorPrimary">@color/letras</item>
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+
     <style name="AppTheme.Transparent2" parent="Theme.AppCompat.Light">
         <item name="colorPrimary">@color/letras</item>
         <item name="colorPrimaryDark">@color/letras</item>
